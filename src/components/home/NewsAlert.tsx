@@ -1,3 +1,5 @@
+"use client";
+
 import { ArrowRight, Sparkles, Briefcase } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
@@ -21,13 +23,6 @@ const ads = [
     url: "https://hc.offernow.cn",
     icon: <Briefcase className="w-4 h-4" />,
     variant: "secondary" as const
-  },
-  {
-    id: 3,
-    content: "最新校招信息获取",
-    url: "https://hc.offernow.cn", 
-    icon: <Briefcase className="w-4 h-4" />,
-    variant: "accent" as const
   }
 ];
 
