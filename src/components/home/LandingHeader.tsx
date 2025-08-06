@@ -10,7 +10,6 @@ import { Button } from "@/components/ui/button";
 import Logo from "@/components/shared/Logo";
 import ThemeToggle from "@/components/shared/ThemeToggle";
 import LanguageSwitch from "@/components/shared/LanguageSwitch";
-import { GitHubStars } from "@/components/shared/GitHubStars";
 import ScrollHeader from "./client/ScrollHeader";
 import MobileMenu from "./client/MobileMenu";
 import GoDashboard from "./GoDashboard";
@@ -42,7 +41,6 @@ export default function LandingHeader() {
                   <Moon className="h-[1.2rem] w-[1.2rem] absolute inset-0 m-auto rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
                 </div>
               </ThemeToggle>
-              <GitHubStars />
 
               {/* <Link
                 href={`/${locale}/changelog`}
